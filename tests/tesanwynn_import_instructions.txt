@@ -1,0 +1,14 @@
+1. Use this command line in tesanwynn to import heightmap data into a plugin:
+
+TESAnnwyn -i Skyrim -w NomansIslandWorld -x -96 -y -96 -d 6144x6144 -s .025 6_6.raw
+
+2. Open up tesanwynn.esp in tes5edit and remove blocks in 'worldspace' that have no sub-blocks (should be 13 in total).
+
+Add ESM flags to plugin.
+
+3. Open up tesanwynn.esp in Creation Kit and view 'NomansIslandWorld' in heightmap editor. 
+
+-------------------------------------------------------------
+Get tesanywnn here:
+
+http://www.oceanlightwave.com/morrowind/TESAnnwyn.html
